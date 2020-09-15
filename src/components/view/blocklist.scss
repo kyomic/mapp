@@ -1,0 +1,49 @@
+.video-block{
+    box-sizing: border-box;
+    padding-left: 5px;
+    .video-block-title{
+        clear: both;
+    }
+    .video-item{
+        width:50%;
+        display: inline-block;
+    }
+    .video-item{
+        .m-cd-i{
+            margin-right: 5px;
+            display:block;
+            position: relative;
+        }
+        .info{
+            .tit{
+                font-size:14px;
+                display: block;
+                height: 24px;
+                line-height: 24px;
+                overflow: hidden;
+                margin:10px 0;
+            }
+        }
+        img{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .pic{
+            position: relative;
+            height: 0;
+            padding-bottom: 56.25%;
+            overflow: hidden;
+            border-radius: 4px;
+        }
+    }
+}
+.video-block-focus{
+    .scrollx{
+        white-space: nowrap;
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+}

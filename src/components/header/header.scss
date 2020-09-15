@@ -1,0 +1,42 @@
+.logo{
+    width:88px;height:40px;background: #CCC;
+}
+.header-back{
+    background-color: #CCC;
+    height: 25px;
+    line-height:25px;
+    
+    .i-back{
+        background:#F2F2F2;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    h2{
+        text-align: center;
+    }
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-menu{
+    white-space: nowrap;
+    overflow-x:scroll;
+    overflow-y:hidden;
+    li{
+        display: inline-block;
+        font-size: 16px;
+        a{
+            text-decoration: none;
+        }
+    }
+    li + li{
+        margin-left: 10px;
+    }
+    li.current{
+        a{
+            color:red;
+        }
+    }
+}

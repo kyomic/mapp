@@ -1,0 +1,51 @@
+.wi-comment{
+    position: relative;
+    padding: 5px;
+}
+.comment-item{
+    padding-left: 67px;
+    position: relative;
+    .avator{
+        position:absolute;
+        left: 0;
+        top: 0;
+    }
+    
+    .comment{
+        border: 1px solid #e3e3e3;
+        position: relative;
+        min-height: 48px;
+        background-color: white;
+        margin-bottom: 20px;
+        padding: 5px;
+        border-radius: 5px;
+        &:before{
+            content: "";
+            display: block;
+            position: absolute;
+            left: -5px;
+            top: 20px;
+            width: 0px;
+            height: 0px;
+            border-left: 5px solid #e3e3e3;
+            border-top: 5px solid #e3e3e3;
+            border-right:5px solid transparent;
+            border-bottom:5px solid transparent;
+            transform: rotate(-45deg);
+        }
+        &:after{
+            content: "";
+            left: -3px;
+            top: 20px;
+            display: block;
+            position: absolute;
+            width: 0px;
+            height: 0px;
+            border-left: 5px solid #FFF;
+            border-top: 5px solid #FFF;
+            border-right: 5px solid transparent;
+            border-bottom:5px solid transparent;
+            transform: rotate(-45deg);
+        }
+    }
+}
