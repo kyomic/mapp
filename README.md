@@ -28,7 +28,11 @@ npm run start
 开启CMD
 node src/server.js
 
+
 ```
+
+
+[调试页面](http://localhost:3000)
 
 ###　结构图
 
